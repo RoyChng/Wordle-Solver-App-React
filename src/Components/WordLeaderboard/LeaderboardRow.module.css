@@ -1,0 +1,23 @@
+.row {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+  margin: 15px 20px;
+}
+
+.row * {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.row.first__row * {
+  color: #56b05f;
+  font-size: 1.3rem;
+}
+
+.row__score--container {
+  display: flex;
+  flex-direction: row;
+}
