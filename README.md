@@ -4,4 +4,6 @@ A worlde solver website. The application takes in inputs for the word you've use
 
 The algorithm used to decide the next best possible word factors compares each possible word with every other possible word to score the word. The 10 words with the lowest score (the lower the score, the more useful the word will be in reducing the list of possible words in the future) is then shown to the user.
 
-This website, created using create-react-app, makes use of React to create re-usable components such as modals.
+Created using React.
+
+![Project Preview](./project-preview.png)
